@@ -1,0 +1,32 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Price   R-squared:                       0.874
+Model:                            OLS   Adj. R-squared:                  0.865
+Method:                 Least Squares   F-statistic:                     94.79
+Date:                Mon, 23 Dec 2019   Prob (F-statistic):           9.10e-35
+Time:                        13:23:06   Log-Likelihood:                -941.79
+No. Observations:                  89   AIC:                             1898.
+Df Residuals:                      82   BIC:                             1915.
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+=====================================================================================
+                        coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+Intercept          2055.2744   1.02e+04      0.201      0.841   -1.83e+04    2.24e+04
+SqFt                 52.0589      6.934      7.508      0.000      38.266      65.852
+Bedrooms           5117.9076   1788.860      2.861      0.005    1559.295    8676.520
+Bathrooms          9580.5087   2601.340      3.683      0.000    4405.615    1.48e+04
+Offers            -9738.6450   1359.902     -7.161      0.000   -1.24e+04   -7033.368
+Bricks_Yes         1.439e+04   2302.419      6.250      0.000    9808.873     1.9e+04
+Neighborhood_West   1.99e+04   2956.383      6.731      0.000     1.4e+04    2.58e+04
+==============================================================================
+Omnibus:                        3.193   Durbin-Watson:                   2.006
+Prob(Omnibus):                  0.203   Jarque-Bera (JB):                2.965
+Skew:                           0.446   Prob(JB):                        0.227
+Kurtosis:                       2.940   Cond. No.                     1.96e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.96e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
